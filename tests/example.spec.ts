@@ -17,4 +17,5 @@ test('get started link', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 
   // ESTO ES UN CAMBIO NUEVO
+  //Esto es un comentario hecho por Nati
 });
